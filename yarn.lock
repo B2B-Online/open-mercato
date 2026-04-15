@@ -5637,6 +5637,7 @@ __metadata:
     "@open-mercato/search": "workspace:*"
     "@open-mercato/shared": "workspace:*"
     "@open-mercato/sync-akeneo": "workspace:*"
+    "@open-mercato/sync-b2bapi": "workspace:*"
     "@open-mercato/ui": "workspace:*"
     "@radix-ui/react-checkbox": "npm:^1.3.3"
     "@radix-ui/react-dialog": "npm:^1.0.5"
@@ -5939,6 +5940,26 @@ __metadata:
     "@open-mercato/shared": "workspace:*"
     react: ^19.0.0
     react-dom: ^19.0.0
+  languageName: unknown
+  linkType: soft
+
+"@open-mercato/sync-b2bapi@workspace:*, @open-mercato/sync-b2bapi@workspace:packages/sync-b2bapi":
+  version: 0.0.0-use.local
+  resolution: "@open-mercato/sync-b2bapi@workspace:packages/sync-b2bapi"
+  dependencies:
+    "@open-mercato/core": "workspace:*"
+    "@open-mercato/shared": "workspace:*"
+    "@types/jest": "npm:^30.0.0"
+    "@types/pg": "npm:^8.16.0"
+    esbuild: "npm:^0.25.0"
+    fast-check: "npm:^3.23.2"
+    glob: "npm:^13.0.6"
+    jest: "npm:^30.2.0"
+    pg: "npm:8.20.0"
+    ts-jest: "npm:^29.4.6"
+  peerDependencies:
+    "@mikro-orm/postgresql": ^6.6.2
+    "@open-mercato/shared": "workspace:*"
   languageName: unknown
   linkType: soft
 
@@ -14593,6 +14614,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fast-check@npm:^3.23.2":
+  version: 3.23.2
+  resolution: "fast-check@npm:3.23.2"
+  dependencies:
+    pure-rand: "npm:^6.1.0"
+  checksum: 10/dab344146b778e8bc2973366ea55528d1b58d3e3037270262b877c54241e800c4d744957722c24705c787020d702aece11e57c9e3dbd5ea19c3e10926bf1f3fe
+  languageName: node
+  linkType: hard
+
 "fast-deep-equal@npm:^3.1.1, fast-deep-equal@npm:^3.1.3":
   version: 3.1.3
   resolution: "fast-deep-equal@npm:3.1.3"
@@ -22379,6 +22409,13 @@ __metadata:
   dependencies:
     escape-goat: "npm:^4.0.0"
   checksum: 10/05c84c2c7601761d3fcec7d3f9937abac197c553f6a53a1c1a6eebb8b947c5bf80e41dc4eba1be4cd061661b48612986762db58a1f98e09de4863d91d808d717
+  languageName: node
+  linkType: hard
+
+"pure-rand@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "pure-rand@npm:6.1.0"
+  checksum: 10/256aa4bcaf9297256f552914e03cbdb0039c8fe1db11fa1e6d3f80790e16e563eb0a859a1e61082a95e224fc0c608661839439f8ecc6a3db4e48d46d99216ee4
   languageName: node
   linkType: hard
 
