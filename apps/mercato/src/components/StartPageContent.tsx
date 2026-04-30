@@ -99,9 +99,9 @@ export function StartPageContent({ showStartPage: initialShowStartPage, showOnbo
   return (
     <>
       <section className="rounded-lg border bg-gradient-to-br from-background to-muted/20 p-8 text-center">
-        <h2 className="text-2xl font-semibold mb-3">{t('startPage.welcome.title', 'Welcome to Your Open Mercato Installation')}</h2>
+        <h2 className="text-2xl font-semibold mb-3">{t('startPage.welcome.title', 'Welcome to Your PlanetB2B Installation')}</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto">
-          {t('startPage.welcome.description', 'This is a customizable start page for your fresh Open Mercato installation. Choose your role below to get started and explore the features available to you.')}
+          {t('startPage.welcome.description', 'This is a customizable start page for your fresh PlanetB2B installation. Choose your role below to get started and explore the features available to you.')}
         </p>
       </section>
 
@@ -115,7 +115,7 @@ export function StartPageContent({ showStartPage: initialShowStartPage, showOnbo
               <div>
                 <h3 className="text-lg font-semibold text-emerald-900 dark:text-emerald-100">{t('startPage.onboarding.title', 'Launch your own workspace')}</h3>
                 <p className="text-sm text-emerald-800/80 dark:text-emerald-200/90">
-                  {t('startPage.onboarding.description', 'Create a tenant, organization, and administrator account in minutes. We\'ll verify your email and deliver a pre-seeded environment so you can explore Open Mercato with real data.')}
+                  {t('startPage.onboarding.description', 'Create a tenant, organization, and administrator account in minutes. We\'ll verify your email and deliver a pre-seeded environment so you can explore PlanetB2B with real data.')}
                 </p>
               </div>
               <ul className="text-sm text-emerald-900/80 dark:text-emerald-200/90 space-y-1 list-disc pl-5 marker:text-emerald-600 dark:marker:text-emerald-400">
@@ -171,7 +171,7 @@ export function StartPageContent({ showStartPage: initialShowStartPage, showOnbo
             disabledMessage={
               <>
                 {t('startPage.roles.superAdmin.disabledMessage1', 'Superadmin demo access is not enabled on this instance.')}{' '}
-                {t('startPage.roles.superAdmin.disabledMessage2', 'Install Open Mercato locally for full access via')}{' '}
+                {t('startPage.roles.superAdmin.disabledMessage2', 'Install PlanetB2B locally for full access via')}{' '}
                 <a
                   href="https://github.com/open-mercato"
                   target="_blank"

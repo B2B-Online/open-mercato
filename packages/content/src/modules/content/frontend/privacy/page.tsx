@@ -11,7 +11,7 @@ export default function PrivacyPage() {
       ]}
     >
       <p>
-        This Privacy Policy explains how data is handled within the Open Mercato demo environment (the &ldquo;Service&rdquo;).
+        This Privacy Policy explains how data is handled within the PlanetB2B demo environment (the &ldquo;Service&rdquo;).
         Because the Service is intended solely for evaluation, information may be deleted without notice.
       </p>
 

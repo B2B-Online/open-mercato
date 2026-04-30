@@ -18,7 +18,7 @@ export async function GET() {
   const { t } = await resolveTranslations()
   const baseUrl = resolveBaseUrl()
   const rawDoc = buildOpenApiDocument(modules, {
-    title: t('api.docs.title', 'Open Mercato API'),
+    title: t('api.docs.title', 'PlanetB2B API'),
     version: APP_VERSION,
     description: t('api.docs.description', 'Auto-generated OpenAPI definition for all enabled modules.'),
     servers: [{ url: baseUrl, description: t('api.docs.serverDescription', 'Default environment') }],

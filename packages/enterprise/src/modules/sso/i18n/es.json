@@ -77,7 +77,7 @@
   "sso.admin.roles.error.emptyLocalRole": "Seleccione un rol local",
   "sso.admin.roles.error.saveFailed": "Error al guardar las asignaciones de roles",
   "sso.admin.roles.idpRole": "Nombre del rol de IdP",
-  "sso.admin.roles.idpRolePlaceholder": "ej. OpenMercato.Admin",
+  "sso.admin.roles.idpRolePlaceholder": "ej. PlanetB2B.Admin",
   "sso.admin.roles.localRole": "Rol local",
   "sso.admin.roles.saved": "Asignaciones de roles guardadas",
   "sso.admin.saved": "Configuración SSO guardada",

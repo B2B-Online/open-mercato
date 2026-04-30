@@ -639,7 +639,7 @@ function RoleMappingsTab({
           <input
             type="text"
             className="w-full rounded-md border px-3 py-2 text-sm"
-            placeholder={t('sso.admin.roles.idpRolePlaceholder', 'e.g. OpenMercato.Admin')}
+            placeholder={t('sso.admin.roles.idpRolePlaceholder', 'e.g. PlanetB2B.Admin')}
             value={idpRoleInput}
             onChange={(e) => { setIdpRoleInput(e.target.value); setInputError('') }}
             onKeyDown={(e) => { if (e.key === 'Enter') { e.preventDefault(); handleAdd() } }}

@@ -71,7 +71,7 @@ export function GlobalNoticeBars({ demoModeEnabled }: { demoModeEnabled: boolean
                   rel="noreferrer"
                   className="underline font-medium hover:text-amber-800 dark:hover:text-amber-200"
                 >
-                  {t('notices.demo.installLink', 'Install Open Mercato locally')}
+                  {t('notices.demo.installLink', 'Install PlanetB2B locally')}
                 </a>
                 . {t('notices.demo.reviewLinks', 'Review our')}{' '}
                 <Link className="underline font-medium hover:text-amber-800 dark:hover:text-amber-200" href="/terms">

@@ -22,16 +22,16 @@ export function ContentLayout({ title, intro, breadcrumb, children }: ContentLay
     <div className="flex min-h-svh flex-col bg-muted/30">
       <header className="border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="mx-auto flex w-full max-w-screen-lg items-center justify-between px-6 py-4">
-          <Link href="/" className="flex items-center gap-3 text-foreground transition hover:text-primary" aria-label="Go to the Open Mercato home page">
+          <Link href="/" className="flex items-center gap-3 text-foreground transition hover:text-primary" aria-label="Go to the PlanetB2B home page">
             <Image
               src="/open-mercato.svg"
-              alt="Open Mercato logo"
+              alt="PlanetB2B logo"
               width={32}
               height={32}
               className="dark:invert"
               priority
             />
-            <span className="text-base font-semibold tracking-tight">Open Mercato</span>
+            <span className="text-base font-semibold tracking-tight">PlanetB2B</span>
           </Link>
           <nav aria-label="Primary" className="flex items-center gap-2">
             <Button asChild variant="ghost" size="sm">
@@ -99,10 +99,10 @@ export function ContentLayout({ title, intro, breadcrumb, children }: ContentLay
           <Link
             href="/"
             className="flex items-center gap-2 text-muted-foreground transition hover:text-foreground"
-            aria-label="Open Mercato"
+            aria-label="PlanetB2B"
           >
-            <Image src="/open-mercato.svg" alt="Open Mercato logo" width={28} height={28} className="dark:invert" />
-            <span className="font-medium text-foreground">Open Mercato</span>
+            <Image src="/open-mercato.svg" alt="PlanetB2B logo" width={28} height={28} className="dark:invert" />
+            <span className="font-medium text-foreground">PlanetB2B</span>
           </Link>
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
             <Link className="transition hover:text-foreground" href="/">
@@ -119,7 +119,7 @@ export function ContentLayout({ title, intro, breadcrumb, children }: ContentLay
             </Link>
           </div>
           <p className="text-xs text-muted-foreground/80 sm:text-right">
-            © {new Date().getFullYear()} Open Mercato. All rights reserved.
+            © {new Date().getFullYear()} PlanetB2B. All rights reserved.
           </p>
         </div>
       </footer>

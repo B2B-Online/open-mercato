@@ -77,7 +77,7 @@
   "sso.admin.roles.error.emptyLocalRole": "Select a local role",
   "sso.admin.roles.error.saveFailed": "Failed to save role mappings",
   "sso.admin.roles.idpRole": "IdP Role Name",
-  "sso.admin.roles.idpRolePlaceholder": "e.g. OpenMercato.Admin",
+  "sso.admin.roles.idpRolePlaceholder": "e.g. PlanetB2B.Admin",
   "sso.admin.roles.localRole": "Local Role",
   "sso.admin.roles.saved": "Role mappings saved",
   "sso.admin.saved": "SSO configuration saved",

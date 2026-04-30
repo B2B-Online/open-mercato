@@ -11,7 +11,7 @@ export default function TermsPage() {
       ]}
     >
       <p>
-        These Terms of Service (&ldquo;Terms&rdquo;) govern your access to and use of this Open Mercato demo environment
+        These Terms of Service (&ldquo;Terms&rdquo;) govern your access to and use of this PlanetB2B demo environment
         (the &ldquo;Service&rdquo;). By using the Service you agree to be bound by these Terms.
       </p>
 
@@ -37,7 +37,7 @@ export default function TermsPage() {
 
       <h2>4. Limitation of Liability</h2>
       <p>
-        To the fullest extent permitted by law, Open Mercato and contributors shall not be liable for any damages arising
+        To the fullest extent permitted by law, PlanetB2B and contributors shall not be liable for any damages arising
         from or related to your use of the Service.
       </p>
 

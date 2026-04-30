@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Open Mercato',
+  title: 'PlanetB2B',
   description: 'AI-supportive, modular ERP foundation for product & service companies',
   icons: {
     icon: '/open-mercato.svg',
